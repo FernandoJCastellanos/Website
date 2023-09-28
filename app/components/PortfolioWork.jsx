@@ -13,6 +13,7 @@ import ScrollTrigger from 'gsap/ScrollTrigger';
 
   
 import arrow from "../assets/play-solid.svg"
+import { Card } from "./Card";
   
   
 
@@ -45,7 +46,8 @@ const img12 = "https://firebasestorage.googleapis.com/v0/b/frontend-development-
 const video12 = "https://www.youtube.com/embed/NX2AYLBPh8E"
 const techUsed12= "React Native and Redux"
 const accomplishements12="Getting comfortable with Redux"
-const GitHub12="https://github.com/FernandoJCastellanos/Nike-E-Commerce-app"
+const Repo12="https://github.com/FernandoJCastellanos/Nike-E-Commerce-app"
+const Demo12="https://fernandojcastellanos.github.io/Drum-Kit/"
 
 
 
@@ -97,8 +99,8 @@ const img10 = "https://firebasestorage.googleapis.com/v0/b/frontend-development-
 const video10 = "https://www.youtube.com/embed/cnwgg7GMEhA"
 const techUsed10= "React, Typescript, SASS"
 const accomplishements10="Finally learned how to turn the dang lights off these website"
-const GitHub10="https://github.com/FernandoJCastellanos/Recipe-Site"
-
+const repo10="https://github.com/FernandoJCastellanos/Recipe-Site"
+const demo10=""
 
 
   // Portafolio Box 9 
@@ -122,8 +124,7 @@ const img9 = "https://firebasestorage.googleapis.com/v0/b/frontend-development-9
 const video9 = "https://www.youtube.com/embed/0emdp0ivIRQ"
 const techUsed9= "React Native"
 const accomplishements9="My first Mobile App"
-const GitHub9="https://github.com/FernandoJCastellanos/Tindog"
-
+const repo9="https://github.com/FernandoJCastellanos/OMDBapp--ReactNative"
 
 
   // Portafolio Box 8 
@@ -147,8 +148,8 @@ const img8 = "https://firebasestorage.googleapis.com/v0/b/frontend-development-9
 const video8 = "https://www.youtube.com/embed/1dUh0SFUDcI"
 const techUsed8= "React"
 const accomplishements8="My first website built with React"
-const GitHub8="https://github.com/FernandoJCastellanos/E-Commerce-Site---React"
-
+const repo8="https://github.com/FernandoJCastellanos/E-Commerce-Site---React"
+const demo8="https://fernandojcastellanos.github.io/E-Commerce-Site---React/"
 
 
 
@@ -173,8 +174,8 @@ const img7 = "https://firebasestorage.googleapis.com/v0/b/frontend-development-9
 const video7 = "https://www.youtube.com/embed/Ppm6D2ZvGcc"
 const techUsed7= "HTML, CSS, JavaScript"
 const accomplishements7="Website to show people how cool I am."
-const GitHub7="https://github.com/FernandoJCastellanos/Vanilla-Frontend-Development-Website"
-
+const repo7="https://github.com/FernandoJCastellanos/Vanilla-Frontend-Development-Website"
+const demo7="https://fernandojcastellanos.github.io/Personal-Developer-Website/"
 
 
 
@@ -198,9 +199,9 @@ const title6="To the Mooooon!!!!"
 const img6 = "https://firebasestorage.googleapis.com/v0/b/frontend-development-9534d.appspot.com/o/space.png?alt=media&token=6b166d8a-5c18-40ee-92d0-64f074315fef"
 const video6 = "https://www.youtube.com/embed/Jh7JkAkKp5g"
 const techUsed6= "HTML, CSS, JavaScript"
-const accomplishements6="Practiced some accesability and some Javascript skills"
-const GitHub6="https://github.com/FernandoJCastellanos/Space-Tourism-Website"
-
+const accomplishements6="Learned about accessibility and practiced Javascript"
+const repo6="https://github.com/FernandoJCastellanos/Space-Tourism-Website"
+const demo6="https://fernandojcastellanos.github.io/Space-Tourism-Website/"
 
 
 
@@ -226,8 +227,8 @@ const img5 = "https://firebasestorage.googleapis.com/v0/b/frontend-development-9
 const video5 = "https://www.youtube.com/embed/1aehupwY3J8"
 const techUsed5= "HTML, CSS, JavaScript"
 const accomplishements5="Landing like an ODST"
-const GitHub5="https://github.com/FernandoJCastellanos/base-apparel-landing-page"
-
+const repo5="https://github.com/FernandoJCastellanos/base-apparel-landing-page"
+const demo5="https://fernandojcastellanos.github.io/base-apparel-landing-page/"
 
 
 
@@ -252,8 +253,8 @@ const img4 = "https://firebasestorage.googleapis.com/v0/b/frontend-development-9
 const video4 = "https://www.youtube.com/embed/PkBH0ch-fIE"
 const techUsed4= "HTML, CSS, JavaScript"
 const accomplishements4="Build some cool looking frontpage"
-const GitHub4="https://github.com/FernandoJCastellanos/SunnySide-Ad-Agency-"
-
+const repo4="https://github.com/FernandoJCastellanos/SunnySide-Ad-Agency-"
+const demo4="https://fernandojcastellanos.github.io/SunnySide-Ad-Agency-/"
 
 
 
@@ -278,8 +279,8 @@ const img3 = "https://firebasestorage.googleapis.com/v0/b/frontend-development-9
 const video3 = "https://www.youtube.com/embed/eirOLkjPSoc"
 const techUsed3= "HTML, CSS, JavaScript"
 const accomplishements3="Built the website I've always wanted"
-const GitHub3="https://github.com/FernandoJCastellanos/Personal-Art-Website"
-
+const repo3="https://github.com/FernandoJCastellanos/Personal-Art-Website"
+const demo3 ="https://fernandojcastellanos.github.io/Personal-Art-Website/"
 
 
 
@@ -304,8 +305,8 @@ const img2 = "https://firebasestorage.googleapis.com/v0/b/frontend-development-9
 const video2 = "https://www.youtube.com/embed/VXNTfJcLVbU"
 const techUsed2= "HTML, CSS, JavaScript"
 const accomplishements2="Practicing some Vanilla JS"
-const GitHub2="https://github.com/FernandoJCastellanos/Drum-Kit"
-
+const Repo2="https://github.com/FernandoJCastellanos/Drum-Kit"
+const demo2="https://fernandojcastellanos.github.io/Drum-Kit/"
 
 
   // Portafolio Box 1 
@@ -329,8 +330,8 @@ const img1 = "https://firebasestorage.googleapis.com/v0/b/frontend-development-9
 const video1 = "https://www.youtube.com/embed/xQx6QH6_z9M"
 const techUsed1= "HTML, CSS, JavaScript"
 const accomplishements1="My first website built in Vanilla"
-const GitHub1="https://github.com/FernandoJCastellanos/Tindog"
-
+const Repo1="https://github.com/FernandoJCastellanos/Tindog"
+const Demo1="https://fernandojcastellanos.github.io/Tindog/"
 
 
 
@@ -340,355 +341,24 @@ const elementsRef = useRef([]);
 
 
     return (
-    <div id="portafolio" className="portfolio-master-container">
+    <div id="portafolio" className="w-[100%] m-12">
         <div >
-          <p className= "feature-title">
+          <p className= "text-center mb-12 text-xl">
             Portfolio Chronological
           </p>
         </div>
-        
-        <div className="portfolio-container">
-          {/* Portafolio 12 */}
-          {/* 12 */}
-          <div className= "feature-box" ref={(el) => (elementsRef.current[11] = el)}>
-            <div className="video-box" onClick={toggleVideo12}>
-              <Image className={`arrow ${videoPlayer12 ? 'hidden' : 'visible'}`} src={arrow} alt="arrow" width={1000} height={1000} />
-              <img className={`thumbnail ${videoPlayer12 ? 'hidden' : 'visbile'}`} alt="VideoImage" src={img12} loading="lazy"/>
-              <iframe className={`iframe-video `}  width="100%" height="100%" src={video12} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
-            </div>
-            <p className="feature-name">
-              {title12}
-            </p>
-            <button className="showmore-button" onClick={toggleVisibility12}>Show More</button>
-            <div className={`content ${isVisible12 ? 'show' : 'hide'}`}>
-              <LearnMore
-              techUsed={techUsed12}
-              accomplishment={accomplishements12}
-              GitHub={GitHub12}
-              />
-            </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 mx-12">
+          <div class="">
+            <Card title={title1} img={img1} video={video1} accomplishments={accomplishements1} techUsed={techUsed1} Repo={Repo1}
+              toggleVideo={toggleVideo1} videoPlayer={videoPlayer1} toggleVisibility={toggleVisibility1} isVisible={isVisible1}  
+            />
           </div>
-
-
-
-
-
-          {/* Portafolio 11 */}
-          {/* 11 */}
-          <div className= "feature-box" ref={(el) => (elementsRef.current[10] = el)}>
-            <div className="video-box" onClick={toggleVideo11}>
-            <Image className={`arrow ${videoPlayer11 ? 'hidden' : 'visible'}`} src={arrow} alt="arrow" width={1000} height={1000} />
-              <img className={`thumbnail ${videoPlayer11 ? 'hidden' : 'visbile'}`} alt="VideoImage" src={img11} loading="lazy"/>
-              <iframe className={`iframe-video `}  width="100%" height="100%" src={video11} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
-            </div>
-            <p className="feature-name">
-              {title11}
-            </p>
-            <button className="showmore-button" onClick={toggleVisibility11}>Show More</button>
-            <div className={`content ${isVisible11 ? 'show' : 'hide'}`}>
-              <LearnMore
-              techUsed={techUsed11}
-              accomplishment={accomplishements11}
-              GitHub={GitHub11}
-              />
-            </div>
-          </div>
-
-
-
-
-
-
-
-          {/* Portafolio 10 */}
-          {/* 10 */}
-          <div ref={(el) => (elementsRef.current[9] = el)}>
-            <div className= "feature-box">
-                  <div className="video-box" onClick={toggleVideo10}>
-                  <Image className={`arrow ${videoPlayer10 ? 'hidden' : 'visible'}`} src={arrow} alt="arrow" width={1000} height={1000} />
-                    <img className={`thumbnail ${videoPlayer10 ? 'hidden' : 'visbile'}`} alt="VideoImage" src={img10} loading="lazy"/>
-                    <iframe className={`iframe-video `}  width="100%" height="100%" src={video10} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
-                  </div>
-                  <p className="feature-name">
-                    {title10}
-                  </p>
-                  <button className="showmore-button" onClick={toggleVisibility10}>Show More</button>
-                  <div className={`content ${isVisible10 ? 'show' : 'hide'}`}>
-                    <LearnMore
-                    techUsed={techUsed10}
-                    accomplishment={accomplishements10}
-                    GitHub={GitHub10}
-                    />
-                  </div>
-              </div>
-          </div>
-
-
-
-
-
-
-
-
-
-          {/* Portafolio 9 */}
-          {/* 9 */}
-          <div ref={(el) => (elementsRef.current[8] = el)}>
-            <div className= "feature-box">
-                  <div className="video-box" onClick={toggleVideo9}>
-                  <Image className={`arrow ${videoPlayer9 ? 'hidden' : 'visible'}`} src={arrow} alt="arrow" width={1000} height={1000} />
-                    <img className={`thumbnail ${videoPlayer9 ? 'hidden' : 'visbile'}`} alt="VideoImage" src={img9} loading="lazy"/>
-                    <iframe className={`iframe-video `}  width="100%" height="100%" src={video9} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
-                  </div>
-                  <p className="feature-name">
-                    {title9}
-                  </p>
-                  <button className="showmore-button" onClick={toggleVisibility9}>Show More</button>
-                  <div className={`content ${isVisible9 ? 'show' : 'hide'}`}>
-                    <LearnMore
-                    techUsed={techUsed9}
-                    accomplishment={accomplishements9}
-                    GitHub={GitHub9}
-                    />
-                  </div>
-              </div>
-          </div>
-
-
-
-
-
-
-
-
-
-          {/* Portafolio 8 */}
-          {/* 8 */}
-          <div ref={(el) => (elementsRef.current[7] = el)}>
-            <div className= "feature-box">
-                  <div className="video-box" onClick={toggleVideo8}>
-                  <Image className={`arrow ${videoPlayer8 ? 'hidden' : 'visible'}`} src={arrow} alt="arrow" width={1000} height={1000} />
-                    <img className={`thumbnail ${videoPlayer8 ? 'hidden' : 'visbile'}`} alt="VideoImage" src={img8} loading="lazy"/>
-                    <iframe className={`iframe-video `}  width="100%" height="100%" src={video8} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
-                  </div>
-                  <p className="feature-name">
-                    {title8}
-                  </p>
-                  <button className="showmore-button" onClick={toggleVisibility8}>Show More</button>
-                  <div className={`content ${isVisible8 ? 'show' : 'hide'}`}>
-                    <LearnMore
-                    techUsed={techUsed8}
-                    accomplishment={accomplishements8}
-                    GitHub={GitHub8}
-                    />
-                  </div>
-              </div>
-          </div>
-
-
-
-
-          {/* Portafolio 7 */}
-          {/* 7 */}
-          <div ref={(el) => (elementsRef.current[6] = el)}>
-            <div className= "feature-box">
-                  <div className="video-box" onClick={toggleVideo7}>
-                  <Image className={`arrow ${videoPlayer7 ? 'hidden' : 'visible'}`} src={arrow} alt="arrow" width={1000} height={1000} />
-                    <img className={`thumbnail ${videoPlayer7 ? 'hidden' : 'visbile'}`} alt="VideoImage" src={img7} loading="lazy"/>
-                    <iframe className={`iframe-video `}  width="100%" height="100%" src={video7} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
-                  </div>
-                  <p className="feature-name">
-                    {title7}
-                  </p>
-                  <button className="showmore-button" onClick={toggleVisibility7}>Show More</button>
-                  <div className={`content ${isVisible7 ? 'show' : 'hide'}`}>
-                    <LearnMore
-                    techUsed={techUsed7}
-                    accomplishment={accomplishements7}
-                    GitHub={GitHub7}
-                    />
-                  </div>
-            </div>
-          </div>
-
-
-
-
-
-
-          {/* Portafolio 6 */}
-          {/* 6 */}
-          <div ref={(el) => (elementsRef.current[5] = el)}>
-            <div className= "feature-box">
-                  <div className="video-box" onClick={toggleVideo6}>
-                  <Image className={`arrow ${videoPlayer6 ? 'hidden' : 'visible'}`} src={arrow} alt="arrow" width={1000} height={1000} />
-                    <img className={`thumbnail ${videoPlayer6 ? 'hidden' : 'visbile'}`} alt="VideoImage" src={img6} loading="lazy"/>
-                    <iframe className={`iframe-video `}  width="100%" height="100%" src={video6} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
-                  </div>
-                  <p className="feature-name">
-                    {title6}
-                  </p>
-                  <button className="showmore-button" onClick={toggleVisibility6}>Show More</button>
-                  <div className={`content ${isVisible6 ? 'show' : 'hide'}`}>
-                    <LearnMore
-                    techUsed={techUsed6}
-                    accomplishment={accomplishements6}
-                    GitHub={GitHub6}
-                    />
-                  </div>
-              </div>
-          </div>
-
-
-
-
-
-
-          {/* Portafolio 5 */}
-          {/* 5 */}
-          <div ref={(el) => (elementsRef.current[4] = el)}>
-            <div className= "feature-box">
-                  <div className="video-box" onClick={toggleVideo5}>
-                  <Image className={`arrow ${videoPlayer5 ? 'hidden' : 'visible'}`} src={arrow} alt="arrow" width={1000} height={1000} />
-                    <img className={`thumbnail ${videoPlayer5 ? 'hidden' : 'visbile'}`} alt="VideoImage" src={img5} loading="lazy"/>
-                    <iframe className={`iframe-video `}  width="100%" height="100%" src={video5} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
-                  </div>
-                  <p className="feature-name">
-                    {title5}
-                  </p>
-                  <button className="showmore-button" onClick={toggleVisibility5}>Show More</button>
-                  <div className={`content ${isVisible5 ? 'show' : 'hide'}`}>
-                    <LearnMore
-                    techUsed={techUsed5}
-                    accomplishment={accomplishements5}
-                    GitHub={GitHub5}
-                    />
-                  </div>
-            </div>
-          </div>
-
-
-
-
-
-
-
-
-
-
-
-
-          {/* Portafolio 4 */}
-          {/* 4 */}
-          <div ref={(el) => (elementsRef.current[3] = el)}>
-            <div className= "feature-box">
-                <div className="video-box" onClick={toggleVideo4}>
-                <Image className={`arrow ${videoPlayer4 ? 'hidden' : 'visible'}`} src={arrow} alt="arrow" width={1000} height={1000} />
-                  <img className={`thumbnail ${videoPlayer4 ? 'hidden' : 'visbile'}`} alt="VideoImage" src={img4} loading="lazy"/>
-                  <iframe className={`iframe-video `}  width="100%" height="100%" src={video4} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
-                </div>
-                <p className="feature-name">
-                  {title4}
-                </p>
-                <button className="showmore-button" onClick={toggleVisibility4}>Show More</button>
-                <div className={`content ${isVisible4 ? 'show' : 'hide'}`}>
-                  <LearnMore
-                  techUsed={techUsed4}
-                  accomplishment={accomplishements4}
-                  GitHub={GitHub4}
-                  />
-                </div>
-            </div>
-          </div>
-
-
-
-
-
-
-
-
-          {/* Portafolio 3 */}
-          {/* 3 */}
-          <div ref={(el) => (elementsRef.current[2] = el)}>
-            <div className= "feature-box">
-                  <div className="video-box" onClick={toggleVideo3}>
-                  <Image className={`arrow ${videoPlayer3 ? 'hidden' : 'visible'}`} src={arrow} alt="arrow" width={1000} height={1000} />
-                    <img className={`thumbnail ${videoPlayer3 ? 'hidden' : 'visbile'}`} alt="VideoImage" src={img3} loading="lazy"/>
-                    <iframe className={`iframe-video `}  width="100%" height="100%" src={video3} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
-                  </div>
-                  <p className="feature-name">
-                    {title3}
-                  </p>
-                  <button className="showmore-button" onClick={toggleVisibility3}>Show More</button>
-                  <div className={`content ${isVisible3 ? 'show' : 'hide'}`}>
-                    <LearnMore
-                    techUsed={techUsed3}
-                    accomplishment={accomplishements3}
-                    GitHub={GitHub3}
-                    />
-                  </div>
-              </div>
-          </div>
-
-
-
-
-
-
-          {/* Portafolio 2 */}
-          {/* DrumKit */}
-          <div ref={(el) => (elementsRef.current[1] = el)}>
-            <div className= "feature-box">
-                <div className="video-box" onClick={toggleVideo2}>
-                <Image className={`arrow ${videoPlayer2 ? 'hidden' : 'visible'}`} src={arrow} alt="arrow" width={1000} height={1000} />
-                  <img className={`thumbnail ${videoPlayer2 ? 'hidden' : 'visbile'}`} alt="VideoImage" src={img2} loading="lazy"/>
-                  <iframe className={`iframe-video `}  width="100%" height="100%" src={video2} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
-                </div>
-                <p className="feature-name">
-                  {title2}
-                </p>
-                <button className="showmore-button" onClick={toggleVisibility2}>Show More</button>
-                <div className={`content ${isVisible2 ? 'show' : 'hide'}`}>
-                  <LearnMore
-                  techUsed={techUsed2}
-                  accomplishment={accomplishements2}
-                  GitHub={GitHub2}
-                  />
-                </div>
-            </div>
-          </div>
-
-
-
-
-
-
-
-          {/* Portafolio 1 */}
-          {/* TinDog */}
-          <div ref={(el) => (elementsRef.current[0] = el)}>
-            <div className= "feature-box" >
-              <div className="video-box" onClick={toggleVideo1}>
-              <Image className={`arrow ${videoPlayer1 ? 'hidden' : 'visible'}`} src={arrow} alt="arrow" width={1000} height={1000} />
-                <img className={`thumbnail ${videoPlayer1 ? 'hidden' : 'visbile'}`} alt="VideoImage" src={img1} loading="lazy"/>
-                <iframe className={`iframe-video`}  width="100%" height="100%" src={video1} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
-              </div>
-              <p className="feature-name">
-                {title1}
-              </p>
-              <button className="showmore-button" onClick={toggleVisibility1}>Show More</button>
-              <div className={`content ${isVisible1 ? 'show' : 'hide'}`}>
-                <LearnMore
-                techUsed={techUsed1}
-                accomplishment={accomplishements1}
-                GitHub={GitHub1}
-                />
-              </div>
-            </div>
+          <div class="">
+            <Card title={title1} img={img1} video={video1} accomplishments={accomplishements1} techUsed={techUsed1} Repo={Repo1} Demo={Demo1}
+              toggleVideo={toggleVideo1} videoPlayer={videoPlayer1} toggleVisibility={toggleVisibility1} isVisible={isVisible1}  
+            />
           </div>
         </div>
-
     </div>
   
     )}

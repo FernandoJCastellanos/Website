@@ -15,11 +15,11 @@ const BlockNavBar = () => {
   const { navbarActive, moveToDeveloper, moveToContact, moveToMotion, getNavItemClass } = useContext(MyContext);
 
 
-console.log(navbarActive)
+// console.log(navbarActive)
   return (
-    <div className='navbar-master'>
+    <div className=''>
       <HR1 />
-      <div className='navbar-container'>
+      <div className='navbar-container text-lg'>
         <div className={`
         navbar-bar
         ${navbarActive === 1 ? 'navbar-bar-developer' : ''}

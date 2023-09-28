@@ -14,10 +14,10 @@ import Image from 'next/image';
 
 const BlockContact = () => {
   return (
-    <div>
+    <div className='justify-center items-center flex flex-col'>
       {/* Services to provide */}
-      <div className='service-container'>
-        <p className='service-title'>
+      <div className='max-w-2xl border border-2 border-white rounded-md mx-10 my-12 px-5 pb-10'>
+        <p className='text-center my-8 text-xl'>
           Service
         </p>
         <ul className='service-list'>
@@ -64,27 +64,27 @@ const BlockContact = () => {
       </div>
       {/* Contact form */}
       <HR1 />
-      <div className='contact-master-container'>
-        <div className='contact-container'>
-          <Image src={email} alt='email-icon' className='contact-icon'/>
-          <p className='contact-text'>fernandojcastellanos@gmail.com</p>
-        </div>
-        <div className='contact-container'>
-          <Image src={twitter} alt='twitter-icon' className='contact-icon'/>
+      <div className=' flex flex-col my-12 gap-10'>
+        <a className=' flex gap-3 justify-center items-center' href='mailto:fernandojcastellanos@gmail.com' >
+          <Image className='h-7 w-8' src={email} alt='email-icon' />
+          <p className=''>fernandojcastellanos@gmail.com</p>
+        </a>
+        <a className=' flex gap-3 justify-center items-center' href="https://twitter.com/FernandoJCaste1" target="_blank" >
+          <Image className='h-7 w-8' src={twitter} alt='twitter-icon' />
           <p className='contact-text'>@FernandoJCaste1</p>
-        </div>
-        <div className='contact-container'>
-          <Image src={linkedin} alt='linkedin-icon' className='contact-icon'/>
+        </a>
+        <a className=' flex gap-3 justify-center items-center' href="https://www.linkedin.com/in/fernando-castellanos-03a484160/" target="_blank">
+          <Image className='max-h-72 w-8' src={linkedin} alt='linkedin-icon' />
           <p className='contact-text'>LinkedIn</p>
-        </div>
-        <div className='contact-container'>
-          <Image src={cv} alt='cv-icon' className='contact-icon'/>
-          <p className='contact-text'>Curriculum Vitae</p>
-        </div>
+        </a>
+        <a  className=' flex gap-3 justify-center items-center' href='https://drive.google.com/drive/folders/1t5QwxgHUe2o40-wHOCAccktlMVxIGA-G?usp=sharing' target="_blank">
+          <Image className='h-7 w-8' src={cv} alt='cv-icon' />
+          <p className=''>Curriculum Vitae</p>
+        </a>
       </div>
       <HR1 />
       {/* About me */}
-      <div className='about-container'>
+      <div className='flex flex-col gap-5 text-center max-w-xl my-12 mx-12'>
         <p>
           Good morning friends!
         </p>
@@ -125,52 +125,58 @@ const BlockContact = () => {
         <hr className='hr-1'/>
       </div>
       {/* background */}
-      <div className='background-container'>
-        <div className='background-block'>
-          <p>
+      <div className='flex flex-row flex-1 flex-wrap justify-evenly gap-10  my-12 mx-10'>
+        <div className=' flex flex-col max-w-sm gap-4 py-5 px-5 border border-2 border-white rounded-md text-center '>
+          <p className='text-lg'>
             Developer World
           </p>
           <p>
+            this is textborder bwhite rrder-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-md
           </p>
         </div>
-        <div className='background-block'>
-          <p>
+        <div className='flex flex-col max-w-sm gap-4 py-5 px-5 border border-2 border-white rounded-md text-center'>
+          <p className='text-lg'>
             3D. Artist.
           </p>
           <p>
-            
+          this is textborder bwhite rrder-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-md
+
           </p>
         </div>
-        <div className='background-block'>
-          <p>
+        <div className='flex flex-col max-w-sm gap-4 py-5 px-5 border border-2 border-white rounded-md text-center'>
+          <p className='text-lg'>
             2D Motion Designer
           </p>
           <p>
-            
+          this is textborder bwhite rrder-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-md
+
           </p>
         </div>
-        <div className='background-block'>
-          <p>
+        <div className='flex flex-col max-w-sm gap-4 py-5 px-5 border border-2 border-white rounded-md text-center'>
+          <p className='text-lg'>
             Film Production Background
           </p>
           <p>
-            
+          this is textborder bwhite rrder-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-md
+
           </p>
         </div>
-        <div className='background-block'>
-          <p>
+        <div className='flex flex-col max-w-sm gap-4 py-5 px-5 border border-2 border-white rounded-md text-center'>
+          <p className='text-lg'>
             Advertising Industry
           </p>
           <p>
-            
+          this is textborder bwhite rrder-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-md
+
           </p>
         </div>
-        <div className='background-block'>
-          <p>
+        <div className='flex flex-col max-w-sm gap-4 py-5 px-5 border border-2 border-white rounded-md text-center'>
+          <p className='text-lg'>
             Solopreneurship, Business and Money.
           </p>
           <p>
-            
+          this is textborder bwhite rrder-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-md
+
           </p>
         </div>
       </div>

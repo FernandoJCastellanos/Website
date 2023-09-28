@@ -1,14 +1,45 @@
 "use client"
 // MyContext.js (continued)
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import Cookies from 'js-cookie';
 
 const MyContext = React.createContext();
 
 const MyContextProvider = ({ children }) => {
 
+  // Function to save data to localStorage
+const saveToLocalStorage = (key, value) => {
+  Cookies.set(key, value, { expires: 365 }); // You can change the expiration as needed
+};
+
+// Function to retrieve data from localStorage
+const getFromLocalStorage = (key) => {
+  return Cookies.get(key);
+};
+
 
   // NAVBAR
   const [navbarActive, setNavbarActive] = useState(2);
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const savedNavbarActive = await getFromLocalStorage('navbarActive');
+        if (savedNavbarActive) {
+          setNavbarActive(parseInt(savedNavbarActive, 10));
+        }
+      } catch (error) {
+        // Handle any errors that occur during retrieval
+        console.error('Error retrieving data from localStorage:', error);
+      }
+    }
+
+    fetchData();
+  }, []);
+  useEffect(() => {
+    saveToLocalStorage('navbarActive', navbarActive);
+  }, [navbarActive]);
+
+
   const moveToDeveloper = () => {
     setNavbarActive(1)
   }

@@ -16,10 +16,10 @@ const BlockDeveloper = () => {
 
 
   return (
-    <div>
+    <div className='justify-center items-center flex flex-col'>
       {/* hard skills */}
-      <div className='service-container'>
-        <p className='service-title'>
+      <div className='max-w-2xl border border-2 border-white rounded-md mx-10 my-12 px-5 pb-10'>
+        <p className='text-center my-8 text-xl'>
           Developer Hard Skills
         </p>
         <ul className='service-list'>
@@ -39,7 +39,7 @@ const BlockDeveloper = () => {
             React Native
           </li>
           <li>
-            Nextjs
+            NextJS
           </li>
           <li>
             Sass
@@ -55,9 +55,6 @@ const BlockDeveloper = () => {
           </li>
           <li>
             Wordpress
-          </li>
-          <li>
-            Headless Wordpress
           </li>
           <li>
             NodeJS
@@ -87,9 +84,9 @@ const BlockDeveloper = () => {
       </div>
       <HR1 />
       {/* featured work */}
-      <div>
+
         <FeaturedWork />
-      </div>
+
       <HR1 />
       {/* portfolio chronological */}
       <PortfolioWork />

@@ -5,6 +5,7 @@ import React from 'react';
 
 // Assets
 import EpisodePostRight from './EpisodePostRight';
+import HR1 from './HR1';
 
 
 
@@ -25,16 +26,25 @@ const lore2 = "Back to the Lab again"
 // Episode 1
 const imgsrc1 = "https://firebasestorage.googleapis.com/v0/b/personal-website-27d17.appspot.com/o/Personal%20Site%2FEpisodesPics%2FPowerPic.png?alt=media&token=d46ca8b2-c3a7-4530-9bb5-cceb7d7781de"
 const videosrc1 = "https://www.youtube.com/embed/VxUPGQKHGDQ"
-const lore1 = "This is Power Lore"
+const lore1 = "Power"
 
 
 
   return (
     <div>
       <EpisodePostRight imgsrc={imgsrc4} videosrc={videosrc4} lore={lore4} />
-      <EpisodePostRight imgsrc={imgsrc3} videosrc={videosrc3} lore={lore3} />
+      <div className='my-10'>
+        <HR1/>
+      </div>
 
+      <EpisodePostRight imgsrc={imgsrc3} videosrc={videosrc3} lore={lore3} />
+      <div className='my-10'>
+        <HR1/>
+      </div>
       <EpisodePostRight imgsrc={imgsrc2} videosrc={videosrc2} lore={lore2} />
+      <div className='my-10'>
+        <HR1/>
+      </div>
       <EpisodePostRight imgsrc={imgsrc1} videosrc={videosrc1} lore={lore1} />
 
     </div>

@@ -67,37 +67,9 @@ html{
 
   // Portfolio
   
-  .portfolio-master-container{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin-top: 4rem;
-    margin-left: 8%;
-    margin-right: 8%;
-  }
 
   // background
-  .background-container{
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 4rem;
-    flex-direction: none;
-    gap: 3rem;
-    margin-right: 3rem;
-    margin-left: 3rem;
-  }
-  .background-block{
-    position: relative;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    border: 1px solid;
-    border-radius: 4px;
-  }
+
   // singles
   
   .singles-container{
@@ -115,84 +87,15 @@ html{
 
 
     // Service Component
-    .service-container{
-      position: relative;
-      display: flex;
-      width: 50%;
-      height: 100%;
-      justify-content: center;
-      align-items: center;
-      margin: auto;
-      border: 3px solid;
-      border-color: aliceblue;
-      text-align: center;
-      flex-wrap: wrap;
-      border-radius: 5px;
-      padding: 1rem 1rem 1rem 1rem;
-      margin-bottom: 4rem;
-    }
+
 
 // portfolio
 
-.portfolio-container{
-  position: relative;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3%;
-}
-.portfolio-master-container{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  margin-top: 4rem;
-  margin-left: 3%;
-  margin-right: 3%;
-  padding-bottom: 20%;
-}
 
   // Featured work
   
-  .feature-master-container{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin-top: 4rem;
-    margin-bottom: 3rem;
-    justify-content: center;
-    margin: auto;
-  }
-  .feature-container{
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-left: 3%;
-    padding-right: 3%;
-    gap: 3%;
-  }
-.feature-box{
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 100%;
-  height: auto;
-  border-radius: 0.5rem;
-  border: 0.5px solid whitesmoke;
-  color: whitesmoke;
-  border-radius: 0.5rem;
-  justify-content: center;
-  margin: auto;
-  margin-bottom: 0rem;
-  overflow: hidden;
-}
+
   // Featured work
-  .feature-container{
-    position: relative;
-    display: grid;
-    justify-content: center;
-    margin: auto;
-    flex-direction: row;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
 
 
   // singles
