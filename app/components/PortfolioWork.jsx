@@ -43,11 +43,10 @@ const PortfolioWork = () => {
 
 const title12="What are thoooose!!"
 const img12 = "https://firebasestorage.googleapis.com/v0/b/frontend-development-9534d.appspot.com/o/Nike%20E%20commerce%20App%20foto.png?alt=media&token=463477a0-0ed1-4e12-9a2a-0fa6c8acbe1d"
-const video12 = "https://www.youtube.com/embed/NX2AYLBPh8E"
+const video12 = ""
 const techUsed12= "React Native and Redux"
 const accomplishements12="Getting comfortable with Redux"
-const Repo12="https://github.com/FernandoJCastellanos/Nike-E-Commerce-app"
-const Demo12="https://fernandojcastellanos.github.io/Drum-Kit/"
+const repo12="https://github.com/FernandoJCastellanos/Nike-E-Commerce-app"
 
 
 
@@ -74,7 +73,8 @@ const img11 = "https://firebasestorage.googleapis.com/v0/b/frontend-development-
 const video11 = "https://www.youtube.com/embed/KtX6ak9g2Hg"
 const techUsed11= "React, Redux and Typescript"
 const accomplishements11="Practiced some API data pulling with Redux"
-const GitHub11="https://github.com/FernandoJCastellanos/CryptoVerse"
+const repo11="https://github.com/FernandoJCastellanos/CryptoVerse"
+const demo11 ="https://fernandojcastellanos.github.io/CryptoVerse/"
 
 
 
@@ -100,7 +100,7 @@ const video10 = "https://www.youtube.com/embed/cnwgg7GMEhA"
 const techUsed10= "React, Typescript, SASS"
 const accomplishements10="Finally learned how to turn the dang lights off these website"
 const repo10="https://github.com/FernandoJCastellanos/Recipe-Site"
-const demo10=""
+const demo10="https://fernandojcastellanos.github.io/Recipe-Site/"
 
 
   // Portafolio Box 9 
