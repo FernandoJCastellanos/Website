@@ -32,7 +32,7 @@ const App = () => {
         </div>
 
 
-        <div className='body'>
+        <div className='body flex-col justify-center'>
           <HR1 />
           <BlockIntro />
           <BlockNavBar />
