@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://FernandoJCastellanos.github.io/Freelance-Website",
+  "homepage": "https://FernandoJCastellanos.github.io/Personal-Website",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
