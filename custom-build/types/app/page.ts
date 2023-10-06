@@ -1,8 +1,8 @@
 // File: C:\Users\ferna\OneDrive\Desktop\Website Portafolio\Personal Freelance Website\website\app\page.js
-import * as entry from '../../../app/page.js'
+import * as entry from '../../../app/index.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../app/page.js')
+type TEntry = typeof import('../../../app/index.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{
