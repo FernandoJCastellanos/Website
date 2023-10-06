@@ -104,7 +104,7 @@ const BlockContact = () => {
           Did some internships as a PA (Production Assistant) in 2 movie sets. If I'm going to direct movies I have to be the best.
         </p>
         <p>
-          Soon got a job saved for my PC, left. Went deep into 3D while freelancing as Motion Designer learned about business, art and Bitcoin.
+          Soon got a job saved for my PC, left. Went deep into 3D while freelancing as a Motion Designer learned about business, art and Bitcoin.
         </p>
         <p>
           Wanting to be more hirable. Took a break, spent the last 2 years learning about Computer Science and programming.
@@ -116,7 +116,7 @@ const BlockContact = () => {
           Now that I feel comfortable in my skills as a Developer. I'm diving back into freelancing and see what the future holds.
         </p>
         <p>
-          Have a great day guys!
+          Have a great day friends!
           <br/>
           Cheers!
         </p>
@@ -131,34 +131,37 @@ const BlockContact = () => {
             Developer World
           </p>
           <p>
-            this is textborder bwhite rrder-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-md
+            Learned about the Development workflows like  SCRUM and AGILE.
+            Development is not just about coding but building and architecture.
+            Computer Science is a never-ending rabbit hole so is Programming.
+            I love how I feel so productive and I always have something to show for my time working, until i get those long hours of debugging sessions
           </p>
         </div>
         <div className='flex flex-col max-w-sm gap-4 py-5 px-5 border border-2 border-white rounded-md text-center'>
           <p className='text-lg'>
-            3D. Artist.
+            3D. Art.
           </p>
           <p>
-          this is textborder bwhite rrder-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-md
+            Learned to learn, learned about the talent and skills some projects take. The long hours of changing colors, camera angles, textures, lighting, and modeling. It’s a whole other world a very unappreciated and underpaid world. Normies will never understand the energy it takes to put yourself out there like that. It’s just a swipe for you or a double click for you.
+            <br/>
+            That's our soul.
 
           </p>
         </div>
         <div className='flex flex-col max-w-sm gap-4 py-5 px-5 border border-2 border-white rounded-md text-center'>
           <p className='text-lg'>
-            2D Motion Designer
+            2D/3D Motion Graphics Industry
           </p>
           <p>
-          this is textborder bwhite rrder-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-md
-
+            Not everyone is equal and it's okay. I’m nowhere close to being the best motion graphics designer. If you direct me and give a play-by-play of how you want your video to go I could pull it off. Giving a blank canvas and telling me to go crazy is something else. These kids are crazy talented and normies can't tell because they don't know.
           </p>
         </div>
         <div className='flex flex-col max-w-sm gap-4 py-5 px-5 border border-2 border-white rounded-md text-center'>
           <p className='text-lg'>
-            Film Production Background
+            Film Production
           </p>
           <p>
-          this is textborder bwhite rrder-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-md
-
+            I love the film world. I love how everyone works 12-14 hours a day. I like how a group of crazy individuals who all want to do their own thing, decide to group up and put all their talent, time, and energy on the field and work as a unit. Movies are so planned and premeditated, that they’re practically a factory product.
           </p>
         </div>
         <div className='flex flex-col max-w-sm gap-4 py-5 px-5 border border-2 border-white rounded-md text-center'>
@@ -166,17 +169,20 @@ const BlockContact = () => {
             Advertising Industry
           </p>
           <p>
-          this is textborder bwhite rrder-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-md
-
+          “The advertising world is where the Artist goes to die.”
+            <br />
+            -Luke Sullivan
+            </p>
+          <p>
+            A book that I read back in Uni. I'll never forget it.
           </p>
         </div>
         <div className='flex flex-col max-w-sm gap-4 py-5 px-5 border border-2 border-white rounded-md text-center'>
           <p className='text-lg'>
-            Solopreneurship, Business and Money.
+            Entrepreneurship, Business, and Money.
           </p>
           <p>
-          this is textborder bwhite rrder-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-mdborder border-2 border-white rounded-md
-
+            It’s been a long journey, a very fun rollercoaster not for the faint of heart. And I have a very long way to go. Lots of more time to grind. It’ll be fun for sure.
           </p>
         </div>
       </div>

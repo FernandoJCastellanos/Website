@@ -97,20 +97,21 @@ const img1 = "https://firebasestorage.googleapis.com/v0/b/frontend-development-9
 const video1 = "https://www.youtube.com/embed/eirOLkjPSoc"
 const techUsed1= "HTML, CSS, JavaScript"
 const GitHub1="https://github.com/FernandoJCastellanos/Personal-Art-Website"
+const demo1 ="https://fernandojcastellanos.github.io/Personal-Art-Website/"
 
 // Feature 2
-const title2="We Build it, You Cook it!"
-const img2 = "https://firebasestorage.googleapis.com/v0/b/frontend-development-9534d.appspot.com/o/recipe%20app.png?alt=media&token=e628fe15-5fc7-4531-9230-47f04fac1578"
-const video2 = "https://www.youtube.com/embed/cnwgg7GMEhA"
-const techUsed2= "React, Typescript, SASS"
-const GitHub2="https://github.com/FernandoJCastellanos/Recipe-Site"
+const title2="Blogkerting"
+const img2 = "https://firebasestorage.googleapis.com/v0/b/freelancewebsite-36de8.appspot.com/o/edsblog.png?alt=media&token=863250aa-0427-4751-bddf-100c656c8da4"
+const video2 = "https://www.youtube.com/embed/semdIH5eGeQ?si=C1pGzT7mFERvJb2u"
+const techUsed2= "Wordpress, CTI, ACF, GraphQl, Apollo, NextJS"
+const GitHub2="https://github.com/FernandoJCastellanos/Eds-Blog"
 
 // Feature 3
-const title3="Keeping up with the CryptoBros"
-const img3 = "https://firebasestorage.googleapis.com/v0/b/frontend-development-9534d.appspot.com/o/cryptoverse%20foto.png?alt=media&token=c506e6a9-4c73-45f2-bac0-4594be589912"
-const video3 = "https://www.youtube.com/embed/KtX6ak9g2Hg"
-const techUsed3= "React, Redux and Typescript"
-const GitHub3="https://github.com/FernandoJCastellanos/CryptoVerse"
+const title3="Buy and Sell money!"
+const img3 = "https://firebasestorage.googleapis.com/v0/b/freelancewebsite-36de8.appspot.com/o/homesapp.jpg?alt=media&token=d96cc806-f4db-4ecb-966d-26377b9d2199"
+const video3 = "https://www.youtube.com/embed/8SGU9MMV-4U?si=tUUAvd63KOgpTr3I"
+const techUsed3= "Wordpress, CTI, ACF, GraphQl, Apollo, NextJS"
+const GitHub3="https://github.com/FernandoJCastellanos/Homes-App"
 
     return (
     <div id="featured-work" className="w-[100%] my-12">
@@ -121,12 +122,12 @@ const GitHub3="https://github.com/FernandoJCastellanos/CryptoVerse"
         </div>
         <div className="grid sm:grid-cols-3 grid-cols-1 gap-8 mx-12">
           <div>
-          <Card title={title1} img={img1} video={video1} techUsed={techUsed1} GitHub={GitHub1}
+          <Card title={title1} img={img1} video={video1} techUsed={techUsed1} GitHub={GitHub1} Demo={demo1}
               toggleVideo={toggleVideo1} videoPlayer={videoPlayer1} toggleVisibility={toggleVisibility1} isVisible={isVisible1}  
             />
           </div>
           <div>
-            <Card title={title1} img={img2} video={video2} techUsed={techUsed2} GitHub={GitHub2}
+            <Card title={title2} img={img2} video={video2} techUsed={techUsed2} GitHub={GitHub2}
                 toggleVideo={toggleVideo2} videoPlayer={videoPlayer2} toggleVisibility={toggleVisibility2} isVisible={isVisible2}  
               />
           </div>
