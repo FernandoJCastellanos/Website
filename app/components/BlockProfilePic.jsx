@@ -26,10 +26,11 @@ const BlockProfilePic = () => {
 
       <div className='profile-pic'>
         <Image
+          className='w-[100%]'
           src={profilepic} 
           alt="My Image"
-          width={1000} 
-          height={1000} 
+          width={2000} 
+          height={2000} 
         />
       </div>
     </div>

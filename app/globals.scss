@@ -52,6 +52,7 @@ html{
   height: auto;
   align-items: center;
   justify-content: center;
+
 }
 .profile-lottie{
   position: relative;
@@ -61,8 +62,9 @@ html{
   position: relative;
   width: 100%;
   display: flex;
-  justify-content: center; 
-  margin: auto;
+  object-fit: cover;
+  justify-content: center;
+  
 }
 
   // Portfolio
