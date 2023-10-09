@@ -134,7 +134,8 @@ const BlockContact = () => {
             Learned about the Development workflows like  SCRUM and AGILE.
             Development is not just about coding but building and architecture.
             Computer Science is a never-ending rabbit hole so is Programming.
-            I love how I feel so productive and I always have something to show for my time working, until i get those long hours of debugging sessions
+            I love how I feel so productive and I always have something to show for my time working, until I get those long hours of debugging sessions
+
           </p>
         </div>
         <div className='flex flex-col max-w-sm gap-4 py-5 px-5 border border-2 border-white rounded-md text-center'>
@@ -142,7 +143,7 @@ const BlockContact = () => {
             3D. Art.
           </p>
           <p>
-            Learned to learn, learned about the talent and skills some projects take. The long hours of changing colors, camera angles, textures, lighting, and modeling. It’s a whole other world a very unappreciated and underpaid world. Normies will never understand the energy it takes to put yourself out there like that. It’s just a swipe for you or a double click for you.
+            Learned to learn, learned about the talent and skills some projects take. The long hours of changing colors, camera angles, textures, lighting, and modeling. It’s a whole other world a very unappreciated and underpaid world. People will never understand the energy it takes to put yourself out there like that. It’s just a swipe or a double click for you.
             <br/>
             That's our soul.
 
@@ -150,10 +151,10 @@ const BlockContact = () => {
         </div>
         <div className='flex flex-col max-w-sm gap-4 py-5 px-5 border border-2 border-white rounded-md text-center'>
           <p className='text-lg'>
-            2D/3D Motion Graphics Industry
+            Motion Graphics Industry
           </p>
           <p>
-            Not everyone is equal and it's okay. I’m nowhere close to being the best motion graphics designer. If you direct me and give a play-by-play of how you want your video to go I could pull it off. Giving a blank canvas and telling me to go crazy is something else. These kids are crazy talented and normies can't tell because they don't know.
+            Not everyone is equal and it's okay. I’m nowhere close to being the best motion graphics designer. If you direct me and give a play-by-play of how you want your video to go I could pull it off. Giving a blank canvas and telling me to go crazy is something else. These kids are crazy talented most will never understand.
           </p>
         </div>
         <div className='flex flex-col max-w-sm gap-4 py-5 px-5 border border-2 border-white rounded-md text-center'>
@@ -169,10 +170,10 @@ const BlockContact = () => {
             Advertising Industry
           </p>
           <p>
-          “The advertising world is where the Artist goes to die.”
-            <br />
+            “The advertising world is where the Artist goes to die.”
+          <br />
             -Luke Sullivan
-            </p>
+          </p>
           <p>
             A book that I read back in Uni. I'll never forget it.
           </p>
@@ -182,7 +183,7 @@ const BlockContact = () => {
             Entrepreneurship, Business, and Money.
           </p>
           <p>
-            It’s been a long journey, a very fun rollercoaster not for the faint of heart. And I have a very long way to go. Lots of more time to grind. It’ll be fun for sure.
+            It’s been a long journey, a very fun rollercoaster not for the faint of heart. And I have a very long way to go. Lots of time to grind. It’ll be fun, for sure.
           </p>
         </div>
       </div>
