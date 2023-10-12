@@ -131,10 +131,11 @@ const BlockContact = () => {
             Developer World
           </p>
           <p>
-            Learned about the Development workflows like  SCRUM and AGILE.
             Development is not just about coding but building and architecture.
+            <br/>
             Computer Science is a never-ending rabbit hole so is Programming.
-            I love how I feel so productive and I always have something to show for my time working, until I get those long hours of debugging sessions
+            <br/>
+            I love how productive I feel and how I always have something to show for my time spent working, until I get those long hours debugging sessions
 
           </p>
         </div>
